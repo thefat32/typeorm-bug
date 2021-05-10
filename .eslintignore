@@ -1,0 +1,7 @@
+.gitignore
+.gitattributes
+.prettierrc
+**/node_modules
+*.json
+*.md
+*.locks
