@@ -8,6 +8,7 @@
     "lint": "yarn type-check & eslint . --ext ts",
     "lint:fix": "eslint . --ext ts --ext tsx --fix",
     "type-check": "tsc --noEmit",
+    "typeorm:ver": "ts-node ./node_modules/typeorm/cli.js version",
     "schema:sync": "ts-node ./node_modules/typeorm/cli.js schema:sync",
     "schema:drop": "ts-node ./node_modules/typeorm/cli.js schema:drop",
     "migration:run": "ts-node ./node_modules/typeorm/cli.js migration:run",

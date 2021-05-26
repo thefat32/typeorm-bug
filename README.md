@@ -2,12 +2,10 @@
 
 - Install deps `yarn install`
 
-- Modify `ormconfig.js` for your test DB. current config:
+- Start DB docker
 
-```js
-    username: 'test'
-    password: 'test'
-    database: 'test'
+```sh
+docker-compose up
 ```
 
 - Sync schema using `yarn schema:sync`
